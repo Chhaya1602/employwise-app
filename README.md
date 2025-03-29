@@ -1,13 +1,14 @@
-Blow i provided a screenshot of how UI of Employwise-app looks like ;
+Below i provided a screenshot of how UI of Employwise-app looks like ;
 
 ![image](https://github.com/user-attachments/assets/898c182d-2ecd-4e81-a6c8-06e56834eb0e)
 
 
 
 
+project objective : 
 The primary goal of this project is to create a functional and interactive web application that enables users to log in, view a list of registered users, and perform CRUD (Create, Read, Update, Delete) operations. This application is structured in a way that adheres to best coding practices, clean UI design, and efficient API communication.
 
-Key Features
+Key Features :
 Authentication System
 
 Users log in using a valid email and password.

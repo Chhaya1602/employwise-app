@@ -1,3 +1,113 @@
+Blow i provided a screenshot of how UI of Employwise-app looks like ;
+
+![image](https://github.com/user-attachments/assets/898c182d-2ecd-4e81-a6c8-06e56834eb0e)
+
+
+
+
+The primary goal of this project is to create a functional and interactive web application that enables users to log in, view a list of registered users, and perform CRUD (Create, Read, Update, Delete) operations. This application is structured in a way that adheres to best coding practices, clean UI design, and efficient API communication.
+
+Key Features
+Authentication System
+
+Users log in using a valid email and password.
+
+Upon successful authentication, a token is stored for session persistence.
+
+Unauthenticated users are redirected to the login page.
+
+User List Management
+
+Fetch and display a paginated list of users from the API.
+
+Each user’s name, email, and avatar are displayed in a structured format.
+
+Edit User Details
+
+Clicking the Edit button opens a pre-filled form.
+
+Users can modify first name, last name, and email.
+
+The updated data is sent to the API, and changes are reflected in the UI.
+
+Delete Users
+
+Users can be removed from the list using the delete function.
+
+The UI is updated immediately upon successful deletion.
+
+Pagination and Navigation
+
+The application supports pagination to navigate user records efficiently.
+
+Implemented using React Router for seamless page transitions.
+
+Error Handling & Form Validation
+
+Displays appropriate error messages when API requests fail.
+
+Ensures input validation before submitting user details.
+
+Responsive & User-Friendly UI
+
+Optimized for both desktop and mobile devices.
+
+Styled using Tailwind CSS / Material-UI for a modern and clean look.
+
+Technology Stack
+Frontend: React.js
+
+State Management: React Hooks (useState, useEffect)
+
+Routing: React Router
+
+API Communication: Axios (for HTTP requests)
+
+UI Design: Tailwind CSS / Custom CSS
+
+Authentication Handling: Token-based authentication using Local Storage
+
+How It Works
+Login:
+
+Users enter the provided email and password to log in.
+
+The system verifies credentials and grants access upon success.
+
+User List Page:
+
+Displays a paginated list of users fetched from the API.
+
+Each user has options to edit or delete their details.
+
+Editing a User:
+
+Clicking the Edit button opens a form.
+
+Users can update name and email, and submit changes.
+
+The API reflects the updates, and the list is reloaded.
+
+Deleting a User:
+
+Clicking the Delete button removes the user from the UI.
+
+The request is sent to the API, and the user is deleted permanently.
+
+Project Scope & Assumptions
+Authentication is simulated (real user accounts are not created).
+
+Reqres API is a mock API, meaning changes do not persist beyond the session.
+
+Pagination is limited to two pages due to API constraints.
+
+Token is stored in local storage for session persistence.
+
+Conclusion
+The EmployWise App effectively demonstrates frontend development skills, REST API integration, and user authentication mechanisms using React. It provides a well-structured, user-friendly interface that follows best coding practices for modern web applications. This project is a great example of handling user data in a React environment, ensuring a seamless experience with proper state management and error handling.
+
+//------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

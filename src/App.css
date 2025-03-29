@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+.auth-form, .user-card, .edit-user-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+.user-card img {
+  width: 50px;
+  border-radius: 50%;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
